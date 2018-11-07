@@ -1,0 +1,147 @@
+.social-container{
+    margin-top: 150px;
+    position: fixed;
+}
+
+
+
+.social-container .arrow{
+    height: 50px;
+    width:50px;
+    background: #f6b53c;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.social-container .arrow .a-l-icon{
+    position: relative;
+    top:10px;
+    left:25%;
+    cursor: pointer;
+    display: none;
+}
+.social-container .arrow .a-r-icon{
+    position: relative;
+    top:10px;
+    left:25%;
+    cursor: pointer;
+
+
+}
+
+.social-container .social-box{
+     height: 180px;
+    width:50px;
+    background: #20c997;
+    z-index: -1;
+    display: none;
+}
+
+.social-container .social-box a{
+    text-decoration: none;
+    color: #fbf6ff;
+}
+
+.social-container .social-box .s-icon{
+   margin-top: 15px;
+    position: relative;
+    top:30%;
+    left: 25%;
+}
+
+
+
+
+
+/*Item Start*/
+
+
+
+
+
+
+.item-list{
+    height: 400px;
+    width: 280px;
+    margin: 50px;
+    border: 1px solid #e9e9e9;
+
+}
+h1{
+    background: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size:40px;
+}
+
+h2{
+    background: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size:40px;
+}
+
+h3{
+    background: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size:40px;
+}
+
+
+
+.item-list .part-one{
+
+}
+
+.item-list .part-one .img-responsive{
+    height: 25%;
+    width: 40%;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.item-list .part-one ul li{
+    list-style-type: none;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+
+.item-list .part-two{
+margin-top: 60px;
+}
+
+.item-list .part-two .img-responsive{
+    height: 25%;
+    width: 40%;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.item-list .part-two ul li{
+    list-style-type: none;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.content-one{
+
+}
+
+.content-two{
+    display: none;
+}
+.content-three{
+    display: none;
+}
