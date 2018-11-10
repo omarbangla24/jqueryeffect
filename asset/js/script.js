@@ -6,7 +6,8 @@ $(document).ready(function(){
 
 
     $(".arrow").click(function () {
-        $(".a-l-icon").toggle()
+        $(".a-l-icon").toggle();
+            $(".a-r-icon").toggle()
     });
 
             // Item Start
